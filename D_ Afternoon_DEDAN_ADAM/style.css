@@ -1,0 +1,256 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background-color: #030203;
+}
+
+ul{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+    background-color: #030203;
+    box-shadow: 3px 3px 13px rgba(1, 1, 1, 0.3);
+    padding: 0px 3%;
+}
+
+nav ul{
+    display: flex;    
+}
+
+nav ul li a{
+    margin: 33px;
+    font-family: 'Times New Roman', Times, serif;
+    color: #f6f4f5;
+    font-size: 16px;
+    font-weight: 650;
+}
+
+nav ul li a:hover{
+    background-color: #8e717f;
+    color: #f6f4f5;
+    border-radius: 5px;
+}
+
+.logo{
+    font-family: sans-serif;
+    color: #f6f4f5;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+#home{
+    width: 100%;
+    height: 100vh;
+    position: relative;
+}
+
+
+.home p{
+    line-height: 0px;
+    margin: 55px 0px 25px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    color: #f6f4f5;
+    font-size: 30px;
+}
+
+.home p:nth-child(1){
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: #f6f4f5;
+    font-size: 20px;
+}
+
+.home p:nth-child(2){
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: #a08894;
+    letter-spacing: none;
+    font-size: 30px;
+}
+
+.home p:nth-child(3){
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    color: #f6f4f5;
+    font-size: 34px;
+}
+
+
+.home{
+    position: absolute;
+    left: 3%;
+    right: 10%;
+    transform: translate(1%, 42%);
+}
+
+.picture{
+    width: 400px;
+    height: auto;
+    position: absolute;
+    left: 85%;
+    top: 20%;
+    transform: translateX(-70%);
+}
+
+.about{
+    height: 100vh;
+    background-color: #1c1719;
+    padding: 3% 11% 11%;
+}
+
+.desca{
+    margin: 50px 50px;
+}
+
+.desca p:nth-child(1){
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    color: #a08894;
+    font-size: 30px;
+    line-height: 0px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.desca p:nth-child(2){
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #f6f4f5;
+    text-align: center;
+}
+
+.row{
+    margin: 30px;
+    padding: 20px;
+    display: flex;
+}
+
+.columns{
+    flex: 50%;
+    padding: 10px;border: 1px solid #f6f4f5;
+    height: 100px;
+}
+
+.row .columns h2{
+    color: #a08894;
+    text-align: center;
+
+}
+.row .columns p{
+    color: #f6f4f5;
+    text-align: justify;
+}
+
+.skill{
+    height: 100vh;
+    background-color: #a08894;
+    padding: 3% 11% 11%;
+}
+
+.descs{
+    margin: 50px 50px;
+}
+
+.descs p:nth-child(1){
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    color: #1c1719;
+    font-size: 30px;
+    line-height: 0px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.descs p:nth-child(2){
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #f6f4f5;
+    text-align: center;
+}
+
+.boxs{
+    display: flex;
+    text-align: justify;
+    justify-content: space-around;
+}
+
+.boxs1, .boxs2, .boxs3{
+    width: 350px;
+    height: 100px;
+    box-shadow: 3px 3px 13px rgba(1, 1, 1, 0.3); 
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    margin: 0px 5px;
+}
+
+.boxs1 span, .boxs2 span, .boxs3 span{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: #1c1719;
+    color: #f6f4f5;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    font-weight: bold;
+}
+
+footer{
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    background-color: #f6f4f5;
+}
+
+footer p:nth-child(1){
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    color: #a08894;
+    font-size: 30px;
+    line-height: 20px;
+}
+
+footer p:nth-child(2){
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #030203;
+}
+
+.sosial{
+    margin: 30px 0px;
+    display: flex;
+    text-align: center;
+}
+
+.sosial a{
+    width: 35px;
+    height: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 3px;
+    background-color: #a08894;
+    border-radius: 50%;
+}
+
+.sosial i{
+    font-size: 25px;
+    color: #030203;
+}
+
+.sosial a:hover{
+    background-color: #1c1719;
+    box-shadow: 3px 3px 13px rgba(1, 1, 1, 0.3);
+}
